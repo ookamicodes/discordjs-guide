@@ -7,10 +7,10 @@ We will teach newcomers how to code Discord Bots for the first time.
 
 We have 3 guide types. 
 
-- [first bot](https://github.com/ookamicodes/discordjs-guide/first-bot/.README.md)
+- [first bot](https://github.com/ookamicodes/discordjs-guide/blob/main/first-bot/.README.md)
   _How to code your first code_
 
-- [hosting guides](https://github.com/ookamicodes/discordjs-guide/hosting-guides/.README.md)
+- [hosting guides](https://github.com/ookamicodes/discordjs-guide/blob/main/hosting-guides/.README.md)
   _How to host your Discord Bot_
 
 - [other guides](https://github.com/ookamicodes/discordjs-guide/blob/main/other-guides/.README.md)
