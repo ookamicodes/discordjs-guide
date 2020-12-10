@@ -85,3 +85,30 @@ Now, let's go to the last part, the command handling. Its really simple:
 Like on the chapter 2 with basic commands you need to use `if(command === 'hello'){`. So when the command from the message author is `hello`. The diffrent is that you need to use now `client.commands.get('hello').execute(message, args);`. `client.commands` is our discord collection. In this collection we want to get the module with the name `hello`. If it found one, it should execute with the two parameters.
 
 **Congratulations, you made an command handler!**
+
+
+## Menu
+
+#### First Bot
+
+- [Setup](https://github.com/ookamicodes/discordjs-guide/blob/master/first-bot/chapters/.setup.md)
+
+- [First Script](https://github.com/ookamicodes/discordjs-guide/blob/master/first-bot/chapters/1_first-script.md)
+
+- [Basic Commands](https://github.com/ookamicodes/discordjs-guide/blob/master/first-bot/chapters/2_basic-commands.md)
+
+- [Command Handler](https://github.com/ookamicodes/discordjs-guide/blob/master/first-bot/chapters/3_command-handler.md)
+
+- [Config Files](https://github.com/ookamicodes/discordjs-guide/blob/master/first-bot/chapters/4_config-files.md)
+
+- [Main Events](https://github.com/ookamicodes/discordjs-guide/blob/master/first-bot/chapters/5_main-events.md)
+
+#### Hosting
+
+- [Hosting on Linux](https://github.com/ookamicodes/discordjs-guide/blob/main/hosting-guides/hosting-on-linux.md)
+
+#### Other Guides
+
+- [anti-swear-words-packages-discord | NPM Package](https://github.com/ookamicodes/discordjs-guide/blob/master/other-guides/chapters/anti-swear-words.md)
+
+- [anti-link-discord | NPM Package](https://github.com/ookamicodes/discordjs-guide/blob/master/other-guides/chapters/anti-link.md)
