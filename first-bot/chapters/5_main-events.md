@@ -1,9 +1,9 @@
-## Main Events
+# Main Events
 
 There are some important event listener that you need to know. We will list below all of the most important event listener.
 
 
-#### ready
+### ready
 
 **When client is ready**
 
@@ -13,7 +13,7 @@ client.on("ready", () {
 });
 ```
 
-#### guildMemberAdd
+### guildMemberAdd
 
 **When a new member joined the guild**
 
@@ -23,7 +23,7 @@ client.on("guildMemberAdd", function(member){
 });
 ```
 
-#### guildMemberRemove
+### guildMemberRemove
 
 **When a member left this guild**
 
@@ -33,7 +33,7 @@ client.on("guildMemberRemove", function(member){
 });
 ```
 
-## message
+### message
 
 **When a new message was created**
 
@@ -48,7 +48,7 @@ client.on("message", function(message){
 });
 ```
 
-#### messageDelete
+### messageDelete
 
 **When a message got deleted**
 
@@ -56,8 +56,9 @@ client.on("message", function(message){
 client.on("messageDelete", function(message){
     console.log(`message is deleted -> ${message}`);
 });
+```
 
-#### channelCreate
+### channelCreate
 
 **When a new channel was created**
 
@@ -67,7 +68,7 @@ client.on("channelCreate", function(channel){
 });
 ```
 
-#### channelDelete
+### channelDelete
 
 **When a channel got deleted**
 
@@ -77,7 +78,7 @@ client.on("channelDelete", function(channel){
 });
 ```
     
-#### channelUpdate
+### channelUpdate
 
 **When channel got a new name etc.**
 
@@ -87,7 +88,7 @@ client.on("channelUpdate", function(oldChannel, newChannel){
 });
 ```
 
-#### debug
+### debug
 
 **ßGet general debuging information**
 
@@ -97,7 +98,7 @@ client.on("debug", function(info){
 });
 ```
 
-#### disconnect
+### disconnect
 
 **When client is disconnected**
 ```js
@@ -106,7 +107,7 @@ client.on("disconnect", function(event){
 });
 ```
 
-#### reconnecting
+### reconnecting
 
 **When client tries to reconnect**
 
@@ -116,7 +117,7 @@ client.on("reconnecting", function(){
 });
 ```
 
-#### resume
+### resume
 
 **When Websocket resume**
 
@@ -126,7 +127,7 @@ client.on("resume", function(replayed){
 });
 ```
 
-#### error
+### error
 
 **When client's websocket got an error**
 
@@ -136,7 +137,7 @@ client.on("error", (error){
 });
 ```
 
-#### guildCreate
+### guildCreate
 
 **When joined a new guild**
 
@@ -146,7 +147,7 @@ client.on('guildCreate', guild => {
 })
 ```
 
-#### guildDelete
+### guildDelete
 
 **When left a guild**
 
@@ -156,7 +157,7 @@ client.on('guildDelete', guild => {
 })
 ```
 
-#### messageReactionAdd
+### messageReactionAdd
 
 **When a message got an reaction**
 
